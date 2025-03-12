@@ -184,6 +184,7 @@ self.C3_JsPropNameTable = [
 	{RedCount3: 0},
 	{Red4: 0},
 	{RedCount4: 0},
+	{Screenshot: 0},
 	{TFamily: 0},
 	{currentTime: 0},
 	{showCountdown: 0},
@@ -259,5 +260,6 @@ self.InstanceType = {
 	RedCount2: class extends self.ITextInstance {},
 	RedCount3: class extends self.ITextInstance {},
 	RedCount4: class extends self.ITextInstance {},
+	Screenshot: class extends self.ISpriteInstance {},
 	TFamily: class extends self.ISpriteInstance {}
 }

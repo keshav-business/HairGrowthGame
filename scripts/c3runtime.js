@@ -1631,9 +1631,9 @@ self.C3_ExpressionFuncs = [
 			return () => ("0" + n0.ExpObject());
 		},
 		() => 3000,
-		() => "Better Luck Next Time!",
+		() => " ",
 		() => "You Missed Target Of 3000",
-		() => "Please Try Again",
+		() => "Better Luck Next Time!",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(1, 1.4);
